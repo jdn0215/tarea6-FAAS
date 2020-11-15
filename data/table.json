@@ -1,0 +1,29 @@
+data = [{
+        "_id": 1,
+        "nombre": "Daniel",
+        "apellido": "Salas",
+        "correo": "js@mail.com",
+        "telefono": "888888888"
+    },
+    {
+        "_id": 2,
+        "nombre": "Cynthia",
+        "apellido": "Madrigal",
+        "correo": "cm@mail.com",
+        "telefono": "888888888"
+    },
+    {
+        "_id": 3,
+        "nombre": "Bruno",
+        "apellido": "Salas",
+        "correo": "bs@mail.com",
+        "telefono": "888888888"
+    },
+    {
+        "_id": 4,
+        "nombre": "Mali",
+        "apellido": "Madrigal",
+        "correo": "mm@mail.com",
+        "telefono": "888888888"
+    }
+]
