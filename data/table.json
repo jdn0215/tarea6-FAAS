@@ -1,0 +1,85 @@
+data = [{
+        "_id": 1,
+        "fecha": "2020-11-06",
+        "hora": "16:00:00",
+        "cliente": "Daniel",
+        "cliente_id": 1,
+        "total": "5.000",
+        "productos": [{
+                "producto": "Naranjas",
+                "producto_id": 2
+            },
+            {
+                "producto": "Melones",
+                "producto_id": 1
+            },
+            {
+                "producto": "Manzanas",
+                "producto_id": 3
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "fecha": "2020-11-06",
+        "hora": "16:30:00",
+        "cliente": "Cynthia",
+        "cliente_id": 2,
+        "total": "5.000",
+        "productos": [{
+                "producto": "Naranjas",
+                "producto_id": 2
+            },
+            {
+                "producto": "Melones",
+                "producto_id": 1
+            },
+            {
+                "producto": "Manzanas",
+                "producto_id": 3
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "fecha": "2020-11-06",
+        "hora": "16:35:00",
+        "cliente": "Bruno",
+        "cliente_id": 3,
+        "total": "5.000",
+        "productos": [{
+                "producto": "Naranjas",
+                "producto_id": 2
+            },
+            {
+                "producto": "Melones",
+                "producto_id": 1
+            },
+            {
+                "producto": "Manzanas",
+                "producto_id": 3
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "fecha": "2020-11-06",
+        "hora": "16:40:00",
+        "cliente": "Mali",
+        "cliente_id": 4,
+        "total": "5.000",
+        "productos": [{
+                "producto": "Naranjas",
+                "producto_id": 2
+            },
+            {
+                "producto": "Melones",
+                "producto_id": 1
+            },
+            {
+                "producto": "Manzanas",
+                "producto_id": 3
+            }
+        ]
+    }
+]

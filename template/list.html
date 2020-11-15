@@ -1,0 +1,8 @@
+<h3 style="margin-top: 15px">Información de facturas</h3>
+Esta sección muestra Información de las facturas
+<p>
+    <ul>
+        {{#.}}
+        <li><a href='/get/?id={{ _id }}'> {{ _id }} {{fecha}} {{hora}}</a></li>
+        {{/.}}
+    </ul>

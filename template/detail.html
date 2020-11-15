@@ -1,0 +1,38 @@
+<h4 style="margin-top: 15px">{{ title }}</h4>
+<h5>Detalles de facturas</h5>
+<form>
+    <div class="row">
+        <div class="twelve columns">
+            <label for="idInput">ID</label>
+            <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="editionInput">Fecha de la compra</label>
+            <input class="u-full-width" type="text" id="edition" value="{{fecha }}" readonly/>
+        </div>
+        <div class="six columns">
+            <label for="languageInput">Hora de la compra</label>
+            <input class="u-full-width" type="text" id="language" value="{{ hora }}" readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for=" authorInput">Cliente</label>
+            <a href="https://angry-gates-90b8d9.netlify.app/get/?id={{ cliente_id }}">
+                <input class="u-full-width" type="button" id=" author" value="{{ cliente }}" readonly/>
+            </a>
+        </div>
+        <div class="six columns">
+            <label for="languageInput">Total</label>
+                <input class="u-full-width" type="button" id="publisher" value="${{ total }}" readonly/>
+        </div>
+    </div>
+    <h5>Productos comprados</h5>
+    <ul>
+        {{#productos}}
+        <li><a href="https://elegant-feynman-a22a6d.netlify.app/get?id={{producto_id}}">{{producto}}</li>
+        {{/productos}}
+    </ul>
+</form>
