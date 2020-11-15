@@ -1,0 +1,28 @@
+<h4 style="margin-top: 15px">{{ nombre }}</h4>
+<h5>Detalle del producto</h5>
+<form>
+    <div class="row">
+        <div class="four columns">
+            <label for="idInput">ID</label>
+            <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
+        </div>
+        <div class="four columns">
+            <label for="copyrightInput">Producto</label>
+            <input class="u-full-width" type="text" id="copyright" value="{{ nombre }}" readonly/>
+        </div>
+        <div class="four columns">
+            <label for="copyrightInput">Disponible</label>
+            <input class="u-full-width" type="text" id="copyright" value="{{ disponible }}" readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="editionInput">Valor</label>
+            <input class="u-full-width" type="text" id="edition" value="{{valor }}" readonly/>
+        </div>
+        <div class="six columns">
+            <label for="languageInput">Distribuidor</label>
+            <input class="u-full-width" type="text" id="language" value="{{ distribuidor }}" readonly/>
+        </div>
+    </div>
+</form>

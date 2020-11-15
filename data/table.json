@@ -1,0 +1,22 @@
+data = [{
+        "_id": 1,
+        "nombre": "Melones",
+        "valor": "2500",
+        "distribuidor": "Melones S.A",
+        "disponible": "si"
+    },
+    {
+        "_id": 2,
+        "nombre": "Naranjas",
+        "valor": "1500",
+        "distribuidor": "Naranjas S.A",
+        "disponible": "si"
+    },
+    {
+        "_id": 3,
+        "nombre": "Manzanas",
+        "valor": "1000",
+        "distribuidor": "Manzanas S.A",
+        "disponible": "si"
+    }
+]
