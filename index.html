@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Sitio de facturación</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row" style="margin-top: 15px">
+            <button onclick="document.getElementById('iframe').src='home.html';" class="three columns button-primary">Home</button>
+            <button onclick="document.getElementById('iframe').src='https://suspicious-hoover-19181c.netlify.app/';" class="three columns button-primary">Facturas</button>
+            <button onclick="document.getElementById('iframe').src='https://angry-gates-90b8d9.netlify.app/';" class="three columns button-primary">Clientes</button>
+            <button onclick="document.getElementById('iframe').src='https://elegant-feynman-a22a6d.netlify.app/';" class="three columns button-primary">Productos</button>
+        </div>
+        <div class="row" style="height: 450px">
+            <div class="twelve columns" style="height: 100%">
+                <iframe id="iframe" style="border:0px solid black;" src="home.html" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 15px">
+            <button disabled="disabled" class="twelve columns button-primary">Copyright (c) 2020 - S&M</button>
+        </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
