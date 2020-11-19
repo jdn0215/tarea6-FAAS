@@ -20,7 +20,7 @@
     <div class="row">
         <div class="six columns">
             <label for=" authorInput">Cliente</label>
-            <a href="https://angry-gates-90b8d9.netlify.app/get/?id={{ cliente_id }}">
+            <a href="/clienteById/?id={{ cliente_id }}">
                 <input class="u-full-width" type="button" id=" author" value="{{ cliente }}" readonly/>
             </a>
         </div>
@@ -32,7 +32,7 @@
     <h5>Productos comprados</h5>
     <ul>
         {{#productos}}
-        <li><a href="https://elegant-feynman-a22a6d.netlify.app/get?id={{producto_id}}">{{producto}}</li>
+        <li><a href="/productoById?id={{producto_id}}">{{producto}}</li>
         {{/productos}}
     </ul>
 </form>
