@@ -1,4 +1,4 @@
-const URL = "https://ecstatic-lumiere-612ea1.netlify.app/";
+const URL = "https://ecstatic-lumiere-612ea1.netlify.app/api/";
 
 function getAll(entity) {
     fetch(URL + entity)
