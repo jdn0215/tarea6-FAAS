@@ -1,4 +1,4 @@
-const URL = "https://faas-example.netlify.app/api/";
+const URL = "https://ecstatic-lumiere-612ea1.netlify.app/";
 
 function getAll(entity) {
     fetch(url + entity)
