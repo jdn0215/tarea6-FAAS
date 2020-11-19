@@ -1,0 +1,8 @@
+<h3 style="margin-top: 15px">Información de cliente</h3>
+Sección con información de cliente
+<p>
+    <ul>
+        {{#.}}
+        <li><a href='/get/?id={{ _id }}'> {{ nombre }} {{apellido}}</a></li>
+        {{/.}}
+    </ul>

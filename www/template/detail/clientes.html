@@ -1,0 +1,28 @@
+<h4 style="margin-top: 15px">{{ nombre }} {{apellido}}</h4>
+<h5>Detalle del cliente</h5>
+<form>
+    <div class="row">
+        <div class="four columns">
+            <label for="idInput">ID</label>
+            <input class="u-full-width" type="text" id="_id" value="{{ _id }} " readonly/>
+        </div>
+        <div class="four columns">
+            <label for="copyrightInput">Nomnbre</label>
+            <input class="u-full-width" type="text" id="copyright" value="{{ nombre }}" readonly/>
+        </div>
+        <div class="four columns">
+            <label for="copyrightInput">apellido</label>
+            <input class="u-full-width" type="text" id="copyright" value="{{ apellido }}" readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="editionInput">Correo</label>
+            <input class="u-full-width" type="text" id="edition" value="{{correo }}" readonly/>
+        </div>
+        <div class="six columns">
+            <label for="languageInput">Teléfono</label>
+            <input class="u-full-width" type="text" id="language" value="{{ telefono }}" readonly/>
+        </div>
+    </div>
+</form>
