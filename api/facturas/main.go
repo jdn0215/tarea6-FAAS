@@ -18,11 +18,11 @@ type ClienteRef struct {
 }
 
 type Factura struct {
-	Id         string         `json:"_id"`
+	Id         int            `json:"_id"`
     Fecha      string         `json:"fecha"`
     Hora       string         `json:"hora"`
     Cliente    string         `json:"cliente"`
-    Cliente_id string         `json:"cliente_id"`
+    Cliente_id int            `json:"cliente_id"`
     Total      string         `json:"total"`
     Productos  []ProductoRef  `json:"productos"`
 }

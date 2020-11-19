@@ -9,7 +9,7 @@ import (
 
 
 type Cliente struct {
-    Id       string    `json:"_id"`
+    Id       int       `json:"_id"`
     Nombre   string    `json:"nombre"`
     Apellido string    `json:"apellido"`
     Correo   string    `json:"correo"`

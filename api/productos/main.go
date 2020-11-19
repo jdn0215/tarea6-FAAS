@@ -8,7 +8,7 @@ import (
 )
 
 type Producto struct {
-    Id           string `json:"_id"`
+    Id           int    `json:"_id"`
     Nombre       string `json:"nombre"`
     Valor        string `json:"valor"`
     Distribuidor string `json:"distribuidor"`
