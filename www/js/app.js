@@ -1,7 +1,7 @@
 const URL = "https://ecstatic-lumiere-612ea1.netlify.app/";
 
 function getAll(entity) {
-    fetch(url + entity)
+    fetch(URL + entity)
         .then((response) => response.json())
         .then((data) => {
             fetch('/template/list/' + entity + '.html')
@@ -15,7 +15,7 @@ function getAll(entity) {
 
 function getById(query, entity) {
     var params = new URLSearchParams(query);
-    fetch(url + entity + '/?id=' + params.get('id'))
+    fetch(URL + entity + '/?id=' + params.get('id'))
         .then((response) => response.json())
         .then((data) => {
             fetch('/template/detail/' + entity + '.html')
